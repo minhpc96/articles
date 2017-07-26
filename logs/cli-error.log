@@ -1,0 +1,82 @@
+2017-07-07 09:43:55 Error: [Cake\Console\Exception\MissingShellException] Shell class for "Model" could not be found.
+Exception Attributes: array (
+  'class' => 'Model',
+)
+Stack Trace:
+#0 /var/www/html/cakephp/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(209): Cake\Console\ShellDispatcher->findShell('model')
+#1 /var/www/html/cakephp/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(179): Cake\Console\ShellDispatcher->_dispatch(Array)
+#2 /var/www/html/cakephp/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch(Array)
+#3 /var/www/html/cakephp/bin/cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#4 {main}
+
+
+2017-07-08 08:09:14 Error: [Cake\Console\Exception\MissingShellException] Shell class for "App" could not be found.
+Exception Attributes: array (
+  'class' => 'App',
+)
+Stack Trace:
+#0 /var/www/html/cakephp/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(209): Cake\Console\ShellDispatcher->findShell('app')
+#1 /var/www/html/cakephp/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(179): Cake\Console\ShellDispatcher->_dispatch(Array)
+#2 /var/www/html/cakephp/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch(Array)
+#3 /var/www/html/cakephp/bin/cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#4 {main}
+
+
+2017-07-09 14:06:04 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'cake_blog.categories' doesn't exist
+Stack Trace:
+#0 /var/www/html/cakephp/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(96): Cake\Database\Schema\Collection->_reflect('Column', 'categories', Array, Object(Cake\Database\Schema\Table))
+#1 /var/www/html/cakephp/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(64): Cake\Database\Schema\Collection->describe('categories', Array)
+#2 /var/www/html/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php(423): Cake\Database\Schema\CachedCollection->describe('categories')
+#3 /var/www/html/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php(499): Cake\ORM\Table->schema()
+#4 /var/www/html/cakephp/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(206): Cake\ORM\Table->primaryKey()
+#5 /var/www/html/cakephp/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(124): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#6 /var/www/html/cakephp/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(109): Bake\Shell\Task\ModelTask->getTableContext(Object(Cake\ORM\Table), 'categories', 'Categories')
+#7 /var/www/html/cakephp/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(96): Bake\Shell\Task\ModelTask->bake('Categories')
+#8 /var/www/html/cakephp/vendor/cakephp/bake/src/Shell/BakeShell.php(250): Bake\Shell\Task\ModelTask->main('Categories')
+#9 /var/www/html/cakephp/vendor/cakephp/cakephp/src/Collection/CollectionTrait.php(51): Bake\Shell\BakeShell->Bake\Shell\{closure}('Categories', 0)
+#10 /var/www/html/cakephp/vendor/cakephp/bake/src/Shell/BakeShell.php(253): Cake\Collection\Collection->each(Object(Closure))
+#11 [internal function]: Bake\Shell\BakeShell->all('Categories')
+#12 /var/www/html/cakephp/vendor/cakephp/cakephp/src/Console/Shell.php(443): call_user_func_array(Array, Array)
+#13 /var/www/html/cakephp/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(212): Cake\Console\Shell->runCommand(Array, true, Array)
+#14 /var/www/html/cakephp/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(179): Cake\Console\ShellDispatcher->_dispatch(Array)
+#15 /var/www/html/cakephp/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch(Array)
+#16 /var/www/html/cakephp/bin/cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#17 {main}
+
+
+2017-07-11 08:46:07 Error: [Cake\Console\Exception\MissingShellException] Shell class for "Hey" could not be found.
+Exception Attributes: array (
+  'class' => 'Hey',
+)
+Stack Trace:
+#0 /var/www/html/cakephp/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(209): Cake\Console\ShellDispatcher->findShell('hey')
+#1 /var/www/html/cakephp/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(179): Cake\Console\ShellDispatcher->_dispatch(Array)
+#2 /var/www/html/cakephp/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch(Array)
+#3 /var/www/html/cakephp/bin/cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#4 {main}
+
+
+2017-07-11 08:46:13 Error: [Cake\Console\Exception\MissingShellException] Shell class for "Minh" could not be found.
+Exception Attributes: array (
+  'class' => 'Minh',
+)
+Stack Trace:
+#0 /var/www/html/cakephp/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(209): Cake\Console\ShellDispatcher->findShell('minh')
+#1 /var/www/html/cakephp/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(179): Cake\Console\ShellDispatcher->_dispatch(Array)
+#2 /var/www/html/cakephp/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch(Array)
+#3 /var/www/html/cakephp/bin/cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#4 {main}
+
+
+2017-07-11 08:46:38 Warning: Warning (2): Missing argument 1 for App\Shell\HelloShell::heyYou() in [/var/www/html/cakephp/src/Shell/helloShell.php, line 14]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 140
+App\Shell\HelloShell::heyYou() - APP/Shell/helloShell.php, line 14
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 438
+Cake\Console\ShellDispatcher::_dispatch() - CORE/src/Console/ShellDispatcher.php, line 212
+Cake\Console\ShellDispatcher::dispatch() - CORE/src/Console/ShellDispatcher.php, line 179
+Cake\Console\ShellDispatcher::run() - CORE/src/Console/ShellDispatcher.php, line 126
+[main] - ROOT/bin/cake.php, line 33
+
+
+

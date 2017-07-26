@@ -1,0 +1,12 @@
+2017-07-11 08:46:38 Notice: Notice (8): Undefined variable: name in [/var/www/html/cakephp/src/Shell/helloShell.php, line 15]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 140
+App\Shell\HelloShell::heyYou() - APP/Shell/helloShell.php, line 15
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 438
+Cake\Console\ShellDispatcher::_dispatch() - CORE/src/Console/ShellDispatcher.php, line 212
+Cake\Console\ShellDispatcher::dispatch() - CORE/src/Console/ShellDispatcher.php, line 179
+Cake\Console\ShellDispatcher::run() - CORE/src/Console/ShellDispatcher.php, line 126
+[main] - ROOT/bin/cake.php, line 33
+
+
+
