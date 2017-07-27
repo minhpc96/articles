@@ -23,7 +23,7 @@ class UsersController extends AppController
     {
         parent::beforeFilter($event);
         //Cho phép thêm, đăng xuất và xem trang check
-        $this->Auth->allow(['add', 'logout', 'check',]);
+        $this->Auth->allow(['add', 'logout',]);
     }
 
     /**
@@ -91,8 +91,6 @@ class UsersController extends AppController
             $user = $this->Users->patchEntity($user, $this->request->data);
             //Check validation
             if (!$user->errors()) {
-                /* @var $sendEmail type */
-
                 //Check save user: redirect check on successful
                 if ($this->Users->save($user)) {
                     $this->sendEmail();
@@ -184,9 +182,13 @@ class UsersController extends AppController
      */
     public function isAuthorized($user)
     {
+        // Admin has full access
+        if ($user['role'] == 'admin') {
+            return true;
+        }
         // user login can view and change user
-        if (in_array($this->request->action, ['view', 'change', 'delete'])) {
-            if ($this->Users->isOwnedBy($user['id'])) {
+        if (in_array($this->request->action, ['view', 'delete', 'change'])) {
+            if ($user['id'] == $this->request->param('pass.0')) {
                 return true;
             }
         }

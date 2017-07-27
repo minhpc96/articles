@@ -99,15 +99,4 @@ class UsersTable extends Table
         ;
         return $validator;
     }
-
-    /**
-     * is owned by method
-     * 
-     * @param $userId
-     * @return bool
-     */
-    public function isOwnedBy($userId)
-    {
-        return $this->exists(['id' => $userId]);
-    }
 }

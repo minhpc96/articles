@@ -15,7 +15,7 @@
         <li><?= $this->Html->link(__('New Article'), ['action' => 'add']) ?></li>
         <li><?= $this->Html->link(__('New Category'), ['controller' => 'Categories', 'action' => 'add']) ?></li>
         <li><?= $this->Html->link(__('Logout'), ['controller' => 'Users', 'action' => 'logout']) ?></li>
-        <li><?= $this->Html->link(__('Change Password'), ['controller' => 'Users', 'action' => 'change']) ?></li>
+        <li><?= $this->Html->link(__('Change Password'), ['controller' => 'Users', 'action' => 'change', $current_user['id']]) ?></li>
         <?php
             } else {
         ?>

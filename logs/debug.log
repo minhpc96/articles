@@ -3498,3 +3498,245 @@ Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
 
 
 
+2017-07-27 07:21:28 Notice: Notice (8): Undefined offset: 0 in [/var/www/html/cakephp/src/Controller/UsersController.php, line 187]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 140
+App\Controller\UsersController::isAuthorized() - APP/Controller/UsersController.php, line 187
+Cake\Auth\ControllerAuthorize::authorize() - CORE/src/Auth/ControllerAuthorize.php, line 92
+Cake\Controller\Component\AuthComponent::isAuthorized() - CORE/src/Controller/Component/AuthComponent.php, line 494
+Cake\Controller\Component\AuthComponent::authCheck() - CORE/src/Controller/Component/AuthComponent.php, line 305
+Cake\Controller\Component\AuthComponent::startup() - CORE/src/Controller/Component/AuthComponent.php, line 258
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 385
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 355
+Cake\Controller\Controller::dispatchEvent() - CORE/src/Event/EventDispatcherTrait.php, line 78
+Cake\Controller\Controller::startupProcess() - CORE/src/Controller/Controller.php, line 496
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 109
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-07-27 07:21:51 Notice: Notice (8): Undefined index: pass.0 in [/var/www/html/cakephp/src/Controller/UsersController.php, line 187]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 140
+App\Controller\UsersController::isAuthorized() - APP/Controller/UsersController.php, line 187
+Cake\Auth\ControllerAuthorize::authorize() - CORE/src/Auth/ControllerAuthorize.php, line 92
+Cake\Controller\Component\AuthComponent::isAuthorized() - CORE/src/Controller/Component/AuthComponent.php, line 494
+Cake\Controller\Component\AuthComponent::authCheck() - CORE/src/Controller/Component/AuthComponent.php, line 305
+Cake\Controller\Component\AuthComponent::startup() - CORE/src/Controller/Component/AuthComponent.php, line 258
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 385
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 355
+Cake\Controller\Controller::dispatchEvent() - CORE/src/Event/EventDispatcherTrait.php, line 78
+Cake\Controller\Controller::startupProcess() - CORE/src/Controller/Controller.php, line 496
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 109
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-07-27 07:27:42 Notice: Notice (8): Undefined index: id in [/var/www/html/cakephp/src/Controller/UsersController.php, line 187]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 140
+App\Controller\UsersController::isAuthorized() - APP/Controller/UsersController.php, line 187
+Cake\Auth\ControllerAuthorize::authorize() - CORE/src/Auth/ControllerAuthorize.php, line 92
+Cake\Controller\Component\AuthComponent::isAuthorized() - CORE/src/Controller/Component/AuthComponent.php, line 494
+Cake\Controller\Component\AuthComponent::authCheck() - CORE/src/Controller/Component/AuthComponent.php, line 305
+Cake\Controller\Component\AuthComponent::startup() - CORE/src/Controller/Component/AuthComponent.php, line 258
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 385
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 355
+Cake\Controller\Controller::dispatchEvent() - CORE/src/Event/EventDispatcherTrait.php, line 78
+Cake\Controller\Controller::startupProcess() - CORE/src/Controller/Controller.php, line 496
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 109
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-07-27 07:33:59 Notice: Notice (8): Array to string conversion in [/var/www/html/cakephp/src/Controller/UsersController.php, line 188]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 140
+App\Controller\UsersController::isAuthorized() - APP/Controller/UsersController.php, line 188
+Cake\Auth\ControllerAuthorize::authorize() - CORE/src/Auth/ControllerAuthorize.php, line 92
+Cake\Controller\Component\AuthComponent::isAuthorized() - CORE/src/Controller/Component/AuthComponent.php, line 494
+Cake\Controller\Component\AuthComponent::authCheck() - CORE/src/Controller/Component/AuthComponent.php, line 305
+Cake\Controller\Component\AuthComponent::startup() - CORE/src/Controller/Component/AuthComponent.php, line 258
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 385
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 355
+Cake\Controller\Controller::dispatchEvent() - CORE/src/Event/EventDispatcherTrait.php, line 78
+Cake\Controller\Controller::startupProcess() - CORE/src/Controller/Controller.php, line 496
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 109
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-07-27 07:34:42 Notice: Notice (8): Array to string conversion in [/var/www/html/cakephp/src/Controller/UsersController.php, line 188]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 140
+App\Controller\UsersController::isAuthorized() - APP/Controller/UsersController.php, line 188
+Cake\Auth\ControllerAuthorize::authorize() - CORE/src/Auth/ControllerAuthorize.php, line 92
+Cake\Controller\Component\AuthComponent::isAuthorized() - CORE/src/Controller/Component/AuthComponent.php, line 494
+Cake\Controller\Component\AuthComponent::authCheck() - CORE/src/Controller/Component/AuthComponent.php, line 305
+Cake\Controller\Component\AuthComponent::startup() - CORE/src/Controller/Component/AuthComponent.php, line 258
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 385
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 355
+Cake\Controller\Controller::dispatchEvent() - CORE/src/Event/EventDispatcherTrait.php, line 78
+Cake\Controller\Controller::startupProcess() - CORE/src/Controller/Controller.php, line 496
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 109
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-07-27 07:44:44 Notice: Notice (8): Object of class App\Model\Table\UsersTable to string conversion in [/var/www/html/cakephp/src/Model/Table/UsersTable.php, line 112]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 140
+App\Model\Table\UsersTable::isOwnedBy() - APP/Model/Table/UsersTable.php, line 112
+App\Controller\UsersController::isAuthorized() - APP/Controller/UsersController.php, line 191
+Cake\Auth\ControllerAuthorize::authorize() - CORE/src/Auth/ControllerAuthorize.php, line 92
+Cake\Controller\Component\AuthComponent::isAuthorized() - CORE/src/Controller/Component/AuthComponent.php, line 494
+Cake\Controller\Component\AuthComponent::authCheck() - CORE/src/Controller/Component/AuthComponent.php, line 305
+Cake\Controller\Component\AuthComponent::startup() - CORE/src/Controller/Component/AuthComponent.php, line 258
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 385
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 355
+Cake\Controller\Controller::dispatchEvent() - CORE/src/Event/EventDispatcherTrait.php, line 78
+Cake\Controller\Controller::startupProcess() - CORE/src/Controller/Controller.php, line 496
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 109
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-07-27 07:44:44 Notice: Notice (8): Undefined variable: Object in [/var/www/html/cakephp/src/Model/Table/UsersTable.php, line 112]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 140
+App\Model\Table\UsersTable::isOwnedBy() - APP/Model/Table/UsersTable.php, line 112
+App\Controller\UsersController::isAuthorized() - APP/Controller/UsersController.php, line 191
+Cake\Auth\ControllerAuthorize::authorize() - CORE/src/Auth/ControllerAuthorize.php, line 92
+Cake\Controller\Component\AuthComponent::isAuthorized() - CORE/src/Controller/Component/AuthComponent.php, line 494
+Cake\Controller\Component\AuthComponent::authCheck() - CORE/src/Controller/Component/AuthComponent.php, line 305
+Cake\Controller\Component\AuthComponent::startup() - CORE/src/Controller/Component/AuthComponent.php, line 258
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 385
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 355
+Cake\Controller\Controller::dispatchEvent() - CORE/src/Event/EventDispatcherTrait.php, line 78
+Cake\Controller\Controller::startupProcess() - CORE/src/Controller/Controller.php, line 496
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 109
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-07-27 07:44:44 Notice: Notice (8): Trying to get property of non-object in [/var/www/html/cakephp/src/Model/Table/UsersTable.php, line 112]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 140
+App\Model\Table\UsersTable::isOwnedBy() - APP/Model/Table/UsersTable.php, line 112
+App\Controller\UsersController::isAuthorized() - APP/Controller/UsersController.php, line 191
+Cake\Auth\ControllerAuthorize::authorize() - CORE/src/Auth/ControllerAuthorize.php, line 92
+Cake\Controller\Component\AuthComponent::isAuthorized() - CORE/src/Controller/Component/AuthComponent.php, line 494
+Cake\Controller\Component\AuthComponent::authCheck() - CORE/src/Controller/Component/AuthComponent.php, line 305
+Cake\Controller\Component\AuthComponent::startup() - CORE/src/Controller/Component/AuthComponent.php, line 258
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 385
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 355
+Cake\Controller\Controller::dispatchEvent() - CORE/src/Event/EventDispatcherTrait.php, line 78
+Cake\Controller\Controller::startupProcess() - CORE/src/Controller/Controller.php, line 496
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 109
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-07-27 07:47:00 Notice: Notice (8): Undefined variable: current_user in [/var/www/html/cakephp/src/Model/Table/UsersTable.php, line 112]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 140
+App\Model\Table\UsersTable::isOwnedBy() - APP/Model/Table/UsersTable.php, line 112
+App\Controller\UsersController::isAuthorized() - APP/Controller/UsersController.php, line 191
+Cake\Auth\ControllerAuthorize::authorize() - CORE/src/Auth/ControllerAuthorize.php, line 92
+Cake\Controller\Component\AuthComponent::isAuthorized() - CORE/src/Controller/Component/AuthComponent.php, line 494
+Cake\Controller\Component\AuthComponent::authCheck() - CORE/src/Controller/Component/AuthComponent.php, line 305
+Cake\Controller\Component\AuthComponent::startup() - CORE/src/Controller/Component/AuthComponent.php, line 258
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 385
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 355
+Cake\Controller\Controller::dispatchEvent() - CORE/src/Event/EventDispatcherTrait.php, line 78
+Cake\Controller\Controller::startupProcess() - CORE/src/Controller/Controller.php, line 496
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 109
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-07-27 07:47:03 Notice: Notice (8): Undefined variable: current_user in [/var/www/html/cakephp/src/Model/Table/UsersTable.php, line 112]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 140
+App\Model\Table\UsersTable::isOwnedBy() - APP/Model/Table/UsersTable.php, line 112
+App\Controller\UsersController::isAuthorized() - APP/Controller/UsersController.php, line 191
+Cake\Auth\ControllerAuthorize::authorize() - CORE/src/Auth/ControllerAuthorize.php, line 92
+Cake\Controller\Component\AuthComponent::isAuthorized() - CORE/src/Controller/Component/AuthComponent.php, line 494
+Cake\Controller\Component\AuthComponent::authCheck() - CORE/src/Controller/Component/AuthComponent.php, line 305
+Cake\Controller\Component\AuthComponent::startup() - CORE/src/Controller/Component/AuthComponent.php, line 258
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 385
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 355
+Cake\Controller\Controller::dispatchEvent() - CORE/src/Event/EventDispatcherTrait.php, line 78
+Cake\Controller\Controller::startupProcess() - CORE/src/Controller/Controller.php, line 496
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 109
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-07-27 07:47:05 Notice: Notice (8): Undefined variable: current_user in [/var/www/html/cakephp/src/Model/Table/UsersTable.php, line 112]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 140
+App\Model\Table\UsersTable::isOwnedBy() - APP/Model/Table/UsersTable.php, line 112
+App\Controller\UsersController::isAuthorized() - APP/Controller/UsersController.php, line 191
+Cake\Auth\ControllerAuthorize::authorize() - CORE/src/Auth/ControllerAuthorize.php, line 92
+Cake\Controller\Component\AuthComponent::isAuthorized() - CORE/src/Controller/Component/AuthComponent.php, line 494
+Cake\Controller\Component\AuthComponent::authCheck() - CORE/src/Controller/Component/AuthComponent.php, line 305
+Cake\Controller\Component\AuthComponent::startup() - CORE/src/Controller/Component/AuthComponent.php, line 258
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 385
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 355
+Cake\Controller\Controller::dispatchEvent() - CORE/src/Event/EventDispatcherTrait.php, line 78
+Cake\Controller\Controller::startupProcess() - CORE/src/Controller/Controller.php, line 496
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 109
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-07-27 07:47:09 Notice: Notice (8): Undefined variable: current_user in [/var/www/html/cakephp/src/Model/Table/UsersTable.php, line 112]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 140
+App\Model\Table\UsersTable::isOwnedBy() - APP/Model/Table/UsersTable.php, line 112
+App\Controller\UsersController::isAuthorized() - APP/Controller/UsersController.php, line 191
+Cake\Auth\ControllerAuthorize::authorize() - CORE/src/Auth/ControllerAuthorize.php, line 92
+Cake\Controller\Component\AuthComponent::isAuthorized() - CORE/src/Controller/Component/AuthComponent.php, line 494
+Cake\Controller\Component\AuthComponent::authCheck() - CORE/src/Controller/Component/AuthComponent.php, line 305
+Cake\Controller\Component\AuthComponent::startup() - CORE/src/Controller/Component/AuthComponent.php, line 258
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 385
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 355
+Cake\Controller\Controller::dispatchEvent() - CORE/src/Event/EventDispatcherTrait.php, line 78
+Cake\Controller\Controller::startupProcess() - CORE/src/Controller/Controller.php, line 496
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 109
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-07-27 08:27:00 Notice: Notice (8): Undefined variable: current_user in [/var/www/html/cakephp/config/routes.php, line 61]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 140
+Cake\Routing\Router::{closure}() - ROOT/config/routes.php, line 61
+Cake\Routing\RouteBuilder::scope() - CORE/src/Routing/RouteBuilder.php, line 645
+Cake\Routing\Router::scope() - CORE/src/Routing/Router.php, line 878
+include - ROOT/config/routes.php, line 84
+Cake\Routing\Router::_loadRoutes() - CORE/src/Routing/Router.php, line 968
+Cake\Routing\Router::parse() - CORE/src/Routing/Router.php, line 333
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE/src/Routing/Filter/RoutingFilter.php, line 53
+Cake\Routing\DispatcherFilter::handle() - CORE/src/Routing/DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 389
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 355
+Cake\Routing\Dispatcher::dispatchEvent() - CORE/src/Event/EventDispatcherTrait.php, line 78
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 62
+[main] - ROOT/webroot/index.php, line 37
+
+
+
